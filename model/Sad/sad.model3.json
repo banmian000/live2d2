@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "sad.moc3",
+		"Textures": [
+			"sad.2048/texture_00.png",
+			"sad.2048/texture_01.png"
+		],
+		"Physics": "sad.physics3.json",
+		"DisplayInfo": "sad.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
